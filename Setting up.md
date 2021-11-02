@@ -20,6 +20,7 @@ Open and type the following in your **Anaconda Prompt** window:
 conda activate pymc_env
 conda install jupyter
 ```
+If you want more information about Jupyter, see [Here](https://jupyter.org/).
 
 ### 5. Clone this repository to your local machine
 Open **Anaconda Prompt** and change your current directory to the location where you want to have the local copy of this repository.<br>
@@ -49,4 +50,3 @@ Then start Jupyter Notebook by typing
 ```
 jupyter notebook
 ```
-If you want more information about Jupyter Notebook, see [Here](https://jupyter.org/).
