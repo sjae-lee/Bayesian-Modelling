@@ -1,8 +1,9 @@
 ### 1. Anaconda
-Download and install [Anaconda](https://www.anaconda.com/products/individual#Downloads) with default settings
+Download and install [Anaconda](https://www.anaconda.com/products/individual#Downloads) with default settings.
 
 ### 2. Git
-Download and install [Git](https://git-scm.com/) with default settings
+Download and install [Git](https://git-scm.com/) with default settings.<br>
+If you want to know what Git is, read the first section of this [website](https://en.wikipedia.org/wiki/Git).
 
 ### 3. PyMC v3
 From the **Start** menu, search for and open **Anaconda Prompt**. (if you are using macOS or Linux, please let me know)<br>
@@ -36,6 +37,7 @@ Then, type
 git clone https://github.com/sleebldg/Bayesian-Modelling.git
 ```
 Now, you have a new folder named "Bayesian-Modelling".
+If you are interested in using GitHub, take a look at [Here](https://guides.github.com/activities/hello-world/). Also, you can use this [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) (there are many different cheat sheets on the internet.
 
 ### 6. Start Jupyter Notebook
 Open **Anaconda Prompt** and change your current directory to the location where you have the local copy of this repository.<br>
