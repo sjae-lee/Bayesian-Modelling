@@ -36,3 +36,15 @@ Then, type
 git clone https://github.com/sleebldg/Bayesian-Modelling.git
 ```
 Now, you have a new folder named "Bayesian-Modelling".
+
+### 6. Start Jupyter Notebook
+Open **Anaconda Prompt** and change your current directory to the location where you have the local copy of this repository.<br>
+Activate the "pymc_env" environment
+```
+conda activate pymc_env
+```
+Then start Jupyter Notebook by typing
+```
+jupyter notebook
+```
+If you want more information about Jupyter Notebook, see [Here](https://jupyter.org/).
