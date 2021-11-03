@@ -8,19 +8,24 @@ If you want to know what Git is, read the first section of this [website](https:
 ### 3. PyMC v3
 From the **Start** menu, search for and open **Anaconda Prompt**. (if you are using macOS or Linux, please let me know)<br>
 Follow the instruction on [PyMC website](https://docs.pymc.io/en/stable/). It will let you create a fresh conda environment and install packages you need<br>
-If you want to use PyMC, you should active the conda environment first by thpe the following in your **Anaconda Prompt** window:
+If you want to use PyMC, you should active the conda environment first by type the following in your **Anaconda Prompt** window:
 ```
 conda activate pymc_env
 ```
 If you are interested in managing your conda environments, see [Here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
-### 4. Jupyter
+### 4. Jupyter + Other Packages
 Open and type the following in your **Anaconda Prompt** window:
 ```
 conda activate pymc_env
 conda install jupyter
 ```
-If you want more information about Jupyter, see [Here](https://jupyter.org/).
+If you want more information about Jupyter, see [Here](https://jupyter.org/).<br>
+Let's install other packages needed for the tutorial.
+```
+conda install pandas matplotlib scikit-learn openpyxl
+```
+
 
 ### 5. Clone this repository to your local machine
 Open **Anaconda Prompt** and change your current directory to the location where you want to have the local copy of this repository.<br>
@@ -41,7 +46,7 @@ Now, you have a new folder named "Bayesian-Modelling".
 If you are interested in using GitHub, take a look at [Here](https://guides.github.com/activities/hello-world/). Also, you can use this [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) (there are many different cheat sheets on the internet.
 
 ### 6. Start Jupyter Notebook
-Open **Anaconda Prompt** and change your current directory to the location where you have the local copy of this repository.<br>
+Open **Anaconda Prompt** and change your current directory to the location where you have the local copy of this repository (or it's parent directory).<br>
 Activate the "pymc_env" environment
 ```
 conda activate pymc_env
