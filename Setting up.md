@@ -2,28 +2,28 @@
 Download and install [Anaconda](https://www.anaconda.com/products/individual#Downloads) with default settings.
 
 ### 2. Git
-Download and install [Git](https://git-scm.com/) with default settings.<br>
+If you are using Windows, download and install [Git](https://git-scm.com/) with default settings.<br>
 If you want to know what Git is, read the first section of this [website](https://en.wikipedia.org/wiki/Git).
 
-### 3. PyMC v3
+### 3. PyMC
 From the **Start** menu, search for and open **Anaconda Prompt**. (if you are using macOS or Linux, please let me know)<br>
-Follow the instruction on [PyMC website](https://docs.pymc.io/en/stable/). It will let you create a fresh conda environment and install packages you need<br>
+Follow the instruction on [PyMC website](https://www.pymc.io/projects/docs/en/stable/installation.html). It will let you create a fresh conda environment and install packages you need<br>
 If you want to use PyMC, you should active the conda environment first by type the following in your **Anaconda Prompt** window:
 ```
 conda activate pymc_env
 ```
 If you are interested in managing your conda environments, see [Here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
-### 4. Jupyter + Other Packages
+### 4. Jupyter Notebook + Other Packages
 Open and type the following in your **Anaconda Prompt** window:
 ```
 conda activate pymc_env
-conda install jupyter
+conda install -c conda-forge notebook
 ```
-If you want more information about Jupyter, see [Here](https://jupyter.org/).<br>
+If you want more information about Jupyter Notebook, see [Here](https://jupyter.org/).<br>
 Let's install other packages needed for the tutorial.
 ```
-conda install pandas matplotlib scikit-learn openpyxl
+conda install -c conda-forge pandas matplotlib scikit-learn openpyxl
 ```
 
 
