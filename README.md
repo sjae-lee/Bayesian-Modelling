@@ -1,3 +1,3 @@
 "# Bayesian-Modelling" 
 
-Repository for the Bayesian modelling tutorial session
+Repository for the Bayesian Modelling Workshop
